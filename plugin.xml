@@ -43,7 +43,10 @@
                 <string>instagram</string>
             </array>
         </config-file>
-        
+        <config-file target="*-Info.plist" parent="NSBluetoothPeripheralUsageDescription">
+            <string>This app uses your bluetooth signal for beacon interaction</string>
+        </config-file>
+            
         
         
     </platform>
